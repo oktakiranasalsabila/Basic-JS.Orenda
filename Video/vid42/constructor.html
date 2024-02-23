@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor</title>
+</head>
+<body>
+    
+    <script>
+       // fungtion constructor hampir mirip dengan declaration, tapi construktor khusus untuk object
+       function Mahasiswa(nama,nim,email,jurusan) {
+        //var.this ={};
+        this.nama = nama;
+        this.nim = nim;
+        this.email = email;
+        this.jurusan = jurusan;
+        //return this;
+       }
+       var mhs = new Mahasiswa('bila','2101092068','bila@gmail.com','teknologi informasi');
+    </script>
+</body>
+</html>

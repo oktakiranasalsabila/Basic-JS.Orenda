@@ -42,9 +42,10 @@
 
 //3. unshift & shift
 
-// Array.unshift('salsa');
+// arr.unshift('salsa');
 // console.log(arr.join(' - '));
 
+var arr = ['salsa','bila','okta','kirana'];
 
-Array.shift();
+arr.shift();
 console.log(arr.join(' - '));

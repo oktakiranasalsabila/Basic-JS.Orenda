@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object JS</title>
+</head>
+<body>
+ 
+    <script>
+        var mahasiswa={
+        name : 'salsabila',
+         umur : 22,
+         lulus : true,
+        Ipsemester : [3.57,2.91,3.52,3.45,3.57],
+        Ipk : function () {
+           var total = 0;
+           var Ips = this.Ipsemester
+           for (var i = 0; i < Ips.length; i++) {
+           total += Ips[i];
+            
+           } 
+           return total/Ips.length;
+        }
+    }
+       console.log(mahasiswa.Ipk()) ;
+    </script>
+</body>
+</html>

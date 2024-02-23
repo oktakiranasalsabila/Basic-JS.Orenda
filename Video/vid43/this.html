@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This</title>
+</head>
+<body>
+ <script>
+   //this adalah sebuah keyword otomatis spesial yang secara otomatis mendefinisikan setiap pada function
+// var a = 10;
+//    console.log(window.a);
+   
+   //cara 1 - function declaration
+//    function halo() {
+//     console.log(this);
+//     console.log('halo');
+//    }
+//    this.halo();
+
+   //this mengembalikan object global
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   //membuat object
+
+    //cara 1 - function declaration
+    // function hallo() {
+     
+    //     console.log('hallo');
+    // }
+    // hallo();
+
+    //cara 2 - object literal-->this mengembalikan object yang bersangkutan
+
+    // var obj ={a:10, nama : 'salsabila'};
+    // obj.hallo = function(){
+    //     console.log(this);
+    //     console.log('hallo');
+    // }
+    // obj.hallo();
+
+    // cara 3 - constructor--> this mengembalikan object yang baru dibuat
+
+    function Hallo(){
+        console.log(this);
+        console.log('hallo');
+
+    }
+   var obj1 =  new Hallo();
+   var obj2 =  new Hallo();
+ </script>   
+</body>
+</html>
