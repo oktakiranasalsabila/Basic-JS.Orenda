@@ -30,3 +30,4 @@ function Angkot(sopir,trayek,penumpang,kas) {
 }
 //kita inisialisasi object baru
 var angkot1 = new Angkot('caca', ['padang - pekanbaru'],[],0);
+var angkot2 = new Angkot('bila', ['padang - pekanbaru'],[],0);
